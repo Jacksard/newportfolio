@@ -5,7 +5,7 @@ import './Icons.css';
 import Mongo from '../../img/mongo.png';
 import ExpressLogo from '../../img/express.svg';
 import ReactLogo from '../../img/react.svg';
-import Node from '../../img/node2.png';
+import Node from '../../img/node.png';
 
 const Icons = () => {
   return (
