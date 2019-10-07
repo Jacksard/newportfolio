@@ -9,7 +9,7 @@ import Node from '../../img/node.png';
 
 const Icons = () => {
   return (
-    <div>
+    <div className='logoSection'>
       <img src={Mongo} className='mongo_logo'></img>
       <img src={ExpressLogo} className='express_logo'></img>
       <img src={ReactLogo} className='react_logo'></img>

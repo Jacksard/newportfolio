@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Logo from './logo.svg';
+
 import Icons from './Components/Icons/Icons';
 import Projects from './Components/Projects/Projects';
 import AOS from 'aos';

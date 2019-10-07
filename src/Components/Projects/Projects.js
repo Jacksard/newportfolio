@@ -5,7 +5,7 @@ import './Projects.css';
 const Projects = props => {
   return (
     <div className='projectsSection'>
-      <h2>Projects</h2>
+      <h2>PROJECTS</h2>
     </div>
   );
 };
