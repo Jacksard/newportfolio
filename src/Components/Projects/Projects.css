@@ -13,34 +13,39 @@
 }
 
 .pubgStatsProject {
+  background-color: rgb(36, 44, 54);
   overflow: hidden !important;
   z-index: 25;
   margin: 10px;
-  border: 1px yellow solid;
+  border: 1px white solid;
   height: 500px;
   font-family: 'Quicksand', sans-serif;
 }
 .layerOnProjectPubg {
-  background-color: rgb(0, 0, 0);
-  height: 700px;
-  transform: translateX(400px) rotate(40deg) !important;
-  z-index: 2;
+  background-repeat: no-repeat, repeat;
+  background-image: url('../../img/pubgAppDemo.PNG');
+  opacity: 0.2;
+  height: 770px;
+  width: 410px;
+  transform: translateX(600px) translateY(-100px) rotate(-40deg) !important;
   display: flex;
   animation: layer;
   animation-duration: 5s;
 }
-
-@keyframes layer {
-    0% {
-      opacity: 0.1;
-    }
-  
-    100% {
-      opacity: 1;
-    }
+.projectLiveDemoLink a {
+  text-decoration: none;
+  color: white;
 }
 
+@keyframes layer {
+  0% {
+    opacity: 0;
+  }
 
+  100% {
+    opacity: 0.2;
+  }
+}
 
 .pubgStatsProject p {
   position: relative;
@@ -52,13 +57,29 @@
 }
 .app2 {
   margin: 10px;
-  border: 1px yellow solid;
+  border: 1px white solid;
   height: 500px;
   font-family: 'Quicksand', sans-serif;
 }
 .app3 {
   margin: 10px;
-  border: 1px yellow solid;
+  border: 1px white solid;
   height: 500px;
   font-family: 'Quicksand', sans-serif;
+}
+
+@media only screen and (max-width: 1024px) {
+  .layerOnProjectPubg {
+    transform: translateX(200px) translateY(-100px) rotate(-40deg) !important;
+  }
+}
+@media only screen and (max-width: 648px) {
+  .layerOnProjectPubg {
+    transform: translateX(200px) rotate(-40deg) !important;
+  }
+}
+@media only screen and (max-width: 411px) {
+  .layerOnProjectPubg {
+    transform: translateX(100px) rotate(-40deg) !important;
+  }
 }
