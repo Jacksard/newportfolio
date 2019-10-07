@@ -9,8 +9,9 @@
 }
 
 .background {
-  background-color: #121418;
-  min-height: 100vh;
+  background: linear-gradient(141deg, #000000 10%, #072a30 21%, #002d3d 100%);
+  /* min-height: 100vh; */
+  height: 3000px;
   display: flex;
   flex-direction: column;
   align-items: center !important;
@@ -23,13 +24,15 @@
 .App-header {
   font-family: 'Quicksand', sans-serif;
   color: white;
+  transform: translate(0px, -1200px);
 }
 
 .myName {
   font-size: 30px;
+  margin-bottom: 15px;
 }
 .title {
-  margin: 10px;
+  margin: 20px;
   font-size: 20px;
 }
 
@@ -40,6 +43,24 @@
   background-color: red;
   animation: decorativeLine;
   animation-duration: 2s;
+}
+
+.icons {
+  display: inline-block;
+  transform: translate(0px, -150px);
+}
+.fa-git-square {
+  margin: 10px;
+}
+.location {
+  font-size: 12px;
+}
+.fas {
+  margin-right: 10px;
+}
+
+.projects {
+  transform: translate(0px, 400px);
 }
 
 @keyframes decorativeLine {

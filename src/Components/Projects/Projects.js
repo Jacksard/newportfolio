@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Test = props => {
+const Projects = props => {
   return (
     <div>
       <h2>Projects</h2>
@@ -9,8 +9,8 @@ const Test = props => {
   );
 };
 
-Test.propTypes = {
+Projects.propTypes = {
   str: PropTypes.string
 };
 
-export default Test;
+export default Projects;
