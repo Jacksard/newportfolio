@@ -1,0 +1,23 @@
+img {
+  max-height: 100px;
+  background-color: transparent;
+  vertical-align: middle;
+}
+
+.mongo_logo {
+  height: 75px;
+  margin: 15px;
+}
+.express_logo {
+  width: 120px;
+  margin: 15px;
+}
+.react_logo {
+  width: 80px;
+  margin: 15px;
+}
+.node_logo {
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+}

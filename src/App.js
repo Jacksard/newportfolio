@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-
+import Logo from './logo.svg';
+import Icons from './Components/Icons/Icons';
 import Projects from './Components/Projects/Projects';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
@@ -20,9 +21,11 @@ class App extends Component {
             <p className='location'>
               <i class='fas fa-map-marker-alt'></i>Toronto
             </p>
-            <p className='title'>JavaScript Full Stack Developer</p>
+            <p className='title'>JavaScript - Full Stack Developer</p>
             <div className='underLine'></div>
           </header>
+
+          <Icons />
           <div className='projectsSection'>
             <Projects data-aos='zoom-in-left' />
           </div>
