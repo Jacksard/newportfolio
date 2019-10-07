@@ -14,8 +14,12 @@ class App extends Component {
         <div className='background'>
           <header className='App-header'>
             <div className='icons'>
-              <i class='fab fa-git-square fa-3x'></i>
-              <i class='fab fa-linkedin fa-3x'></i>
+              <a href='https://github.com/Jacksard'>
+                <i class='fab fa-git-square fa-3x'></i>
+              </a>
+              <a href='https://www.linkedin.com/in/jacob-goskha/'>
+                <i class='fab fa-linkedin fa-3x'></i>
+              </a>
             </div>
             <p className='myName'>Jacob Goskha</p>
             <p className='location'>

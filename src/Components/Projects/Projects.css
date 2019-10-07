@@ -13,8 +13,32 @@
 }
 
 .pubgStatsProject {
-  display: block;
+  overflow: hidden !important;
+  z-index: 25;
+  margin: 10px;
+  border: 1px yellow solid;
+  height: 500px;
+  font-family: 'Quicksand', sans-serif;
+}
+.layerOnProject {
+  background-color: rgb(0, 0, 0);
+  height: 700px;
+  transform: translateX(400px) rotate(40deg) !important;
 
+  z-index: 2;
+  display: flex;
+}
+.pubgStatsProject p {
+  position: relative;
+  top: -500px;
+}
+.app2 {
+  margin: 10px;
+  border: 1px yellow solid;
+  height: 500px;
+  font-family: 'Quicksand', sans-serif;
+}
+.app3 {
   margin: 10px;
   border: 1px yellow solid;
   height: 500px;
