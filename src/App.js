@@ -26,8 +26,8 @@ class App extends Component {
           </header>
 
           <Icons />
-          <div className='projectsSection'>
-            <Projects data-aos='zoom-in-left' />
+          <div className='projectsSection' data-aos='fade-down'>
+            <Projects />
           </div>
         </div>
       </div>

@@ -1,4 +1,22 @@
 .projectsSection {
+  height: 800px;
   text-align: center;
   color: white;
+  display: inline-block;
+  width: 90%;
+}
+
+.projectsSection h2 {
+  line-height: 450px;
+  margin: auto;
+  vertical-align: middle;
+}
+
+.pubgStatsProject {
+  display: block;
+
+  margin: 10px;
+  border: 1px yellow solid;
+  height: 500px;
+  font-family: 'Quicksand', sans-serif;
 }

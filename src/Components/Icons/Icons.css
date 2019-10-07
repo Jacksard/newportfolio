@@ -6,7 +6,7 @@ img {
 
 .logoSection {
   animation: iconsFadeIn;
-  animation-duration: 3s;
+  animation-duration: 1s;
 }
 
 @keyframes iconsFadeIn {
