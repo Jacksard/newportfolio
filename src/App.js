@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import './App.css';
 
 import Projects from './Components/Projects/Projects';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+AOS.init();
 
 class App extends Component {
   render() {
@@ -19,10 +22,10 @@ class App extends Component {
             </p>
             <p className='title'>JavaScript Full Stack Developer</p>
             <div className='underLine'></div>
-            <div className='projects'>
-              <Projects />
-            </div>
           </header>
+          <div className='projectsSection'>
+            <Projects data-aos='zoom-in-left' />
+          </div>
         </div>
       </div>
     );

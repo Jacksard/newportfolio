@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 .App-logo {
@@ -12,8 +14,8 @@
   background: linear-gradient(141deg, #000000 10%, #072a30 21%, #002d3d 100%);
   /* min-height: 100vh; */
   height: 3000px;
-  display: flex;
-  flex-direction: column;
+  width: 100%;
+  display: inline-block;
   align-items: center !important;
   animation: heading;
   animation-duration: 1s;
@@ -24,7 +26,8 @@
 .App-header {
   font-family: 'Quicksand', sans-serif;
   color: white;
-  transform: translate(0px, -1200px);
+  margin: auto;
+  text-align: center;
 }
 
 .myName {
@@ -32,22 +35,24 @@
   margin-bottom: 15px;
 }
 .title {
-  margin: 20px;
+  margin: 5px;
   font-size: 20px;
 }
 
 .underLine {
   width: 320px;
   height: 2px;
+  text-align: center;
+  display: inline-block;
   position: relative;
   background-color: red;
   animation: decorativeLine;
-  animation-duration: 2s;
+  animation-duration: 1s;
 }
 
 .icons {
   display: inline-block;
-  transform: translate(0px, -150px);
+  /* transform: translate(0px, -150px); */
 }
 .fa-git-square {
   margin: 10px;
@@ -59,18 +64,21 @@
   margin-right: 10px;
 }
 
-.projects {
-  transform: translate(0px, 400px);
+.projectsSection {
+  margin: auto;
+  text-align: center;
 }
 
 @keyframes decorativeLine {
   0% {
     left: -1000px;
   }
-  50% {
-    left: 0px;
-  }
+
+  /*  50% {
+    left: -500px;
+  } */
   100% {
+    left: 0px;
   }
 }
 
