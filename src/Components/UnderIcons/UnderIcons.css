@@ -1,0 +1,15 @@
+.animationSection {
+  height: 500px !important;
+  text-align: center;
+  color: white;
+  display: inline-block;
+  /* border: 1px solid yellow; */
+  width: 100%;
+}
+
+.iconRunner {
+  /* text-align: center;
+  background-color: red;
+  height: 5px;
+  width: 5px; */
+}

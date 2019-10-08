@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 
 import Icons from './Components/Icons/Icons';
+import UnderIcons from './Components/UnderIcons/UnderIcons';
 import Projects from './Components/Projects/Projects';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
@@ -30,7 +31,8 @@ class App extends Component {
           </header>
 
           <Icons />
-          <div className='animationSection'></div>
+          <UnderIcons />
+
           <div className='projectsSection' data-aos='fade-down'>
             <Projects />
           </div>
