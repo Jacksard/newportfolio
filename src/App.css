@@ -56,7 +56,7 @@
   position: relative;
   background-color: red;
   animation: decorativeLine;
-  animation-duration: 0.75s;
+  animation-duration: 1.1s;
 }
 
 .icons {
@@ -77,6 +77,10 @@
 }
 .fas {
   margin-right: 10px;
+}
+
+.animationSection {
+  height: 500px !important;
 }
 
 @keyframes decorativeLine {

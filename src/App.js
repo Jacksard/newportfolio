@@ -30,6 +30,7 @@ class App extends Component {
           </header>
 
           <Icons />
+          <div className='animationSection'></div>
           <div className='projectsSection' data-aos='fade-down'>
             <Projects />
           </div>
