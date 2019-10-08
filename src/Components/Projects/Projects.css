@@ -12,18 +12,18 @@
 }
 
 .pubgStatsProject {
-  background-color: rgb(36, 44, 54);
+  background-color: transparent;
   overflow: hidden !important;
   z-index: 25;
   margin: 10px;
-  border: 1px white solid;
+
   height: 500px;
   font-family: 'Quicksand', sans-serif;
 }
 .layerOnProjectPubg {
   background-repeat: no-repeat, repeat;
   background-image: url('../../img/pubgAppDemo.PNG');
-  opacity: 0.2;
+  opacity: 0.25;
   height: 770px;
   width: 410px;
   transform: translateX(600px) translateY(-100px) rotate(-40deg) !important;
@@ -67,6 +67,11 @@
   font-family: 'Quicksand', sans-serif;
 }
 
+@media only screen and (max-width: 1200px) {
+  .layerOnProjectPubg {
+    transform: translateX(300px) translateY(-100px) rotate(-40deg) !important;
+  }
+}
 @media only screen and (max-width: 1024px) {
   .layerOnProjectPubg {
     transform: translateX(200px) translateY(-100px) rotate(-40deg) !important;
