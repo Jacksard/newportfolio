@@ -13,8 +13,8 @@
 
 .pubgStatsProject {
   background-color: transparent;
-  overflow: hidden !important;
-  z-index: 25;
+  overflow: hidden;
+  z-index: -25;
   margin: 10px;
 
   height: 500px;
@@ -34,6 +34,29 @@
 .projectLiveDemoLink a {
   text-decoration: none;
   color: white;
+}
+
+.projectLink a {
+  color: orange;
+  text-decoration: none;
+}
+
+.container {
+  overflow: visible !important;
+  grid-template-columns: auto;
+  background-color: #2196f3;
+  display: inline;
+}
+
+.item-1 {
+  overflow: visible !important;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.item-2 {
+  overflow: visible !important;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
 
 @keyframes layer {

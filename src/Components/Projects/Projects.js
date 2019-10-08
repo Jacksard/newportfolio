@@ -1,8 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './Projects.css';
-import tenor from '../../gif/tenor.gif';
-import appDemo from '../../img/pubgAppDemo.PNG';
 
 const Projects = props => {
   return (
@@ -12,8 +10,40 @@ const Projects = props => {
         <div className='layerOnProjectPubg'></div>
         <p className='projectTitle'>PUBG stats application</p>
 
-        <p className='projectLiveDemoLink'>
-          <a href='https://pubg-stats-app.netlify.com'>Live demo</a>
+        <p className='projectLink'>
+          A full stack app for comparison between players stats, based on{' '}
+          <a href='https://developer.pubg.com/'>PUBG's Developer API</a>{' '}
+        </p>
+        <p>Technologies: </p>
+        <p>Frond-End: ReactJS and Axios</p>
+        <p className='projectLink'>
+          <a
+            href='https://pubg-stats-app.netlify.com'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Live demo
+          </a>{' '}
+          /
+          <a
+            href='https://github.com/Jacksard/pubg-stats-app'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            {' '}
+            github Repo
+          </a>
+        </p>
+        <p>Back-End: NodeJS/Express/MongoDB with server side caching</p>
+        <p className='projectLink'>
+          <a
+            href='https://github.com/Jacksard/pubg-stats-server'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            {' '}
+            github Repo
+          </a>
         </p>
       </div>
       <div className='app2' data-aos='fade-right'>

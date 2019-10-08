@@ -18,24 +18,28 @@ const Icons = () => {
         className='mongo_logo'
         data-aos='zoom-in-left'
         data-aos-delay='100'
+        alt='mongo'
       ></img>
       <img
         src={ExpressLogo}
         className='express_logo'
         data-aos='zoom-in-left'
         data-aos-delay='200'
+        alt='express'
       ></img>
       <img
         src={ReactLogo}
         className='react_logo'
         data-aos='zoom-in-left'
         data-aos-delay='300'
+        alt='react'
       ></img>
       <img
         src={Node}
         className='node_logo'
         data-aos='zoom-in-left'
         data-aos-delay='400'
+        alt='node'
       ></img>
     </div>
   );
