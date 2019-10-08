@@ -37,8 +37,18 @@
 }
 
 .projectLink a {
-  color: orange;
+  color: rgb(255, 208, 0);
   text-decoration: none;
+}
+
+.linkhover:hover {
+  color: rgb(255, 251, 0) !important;
+  transition: all 0.2s ease-in;
+  transform: scale(1.2) !important;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .container {

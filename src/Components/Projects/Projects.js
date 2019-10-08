@@ -12,15 +12,21 @@ const Projects = props => {
 
         <p className='projectLink'>
           A full stack app for comparison between players stats, based on{' '}
-          <a href='https://developer.pubg.com/'>PUBG's Developer API</a>{' '}
+          <a href='https://developer.pubg.com/' className='linkhover'>
+            PUBG's Developer API
+          </a>
+          ,{' '}
         </p>
         <p>Technologies: </p>
-        <p>Frond-End: ReactJS and Axios</p>
+        <p>
+          Frond-End : <b>ReactJS and Axios, Deployed on Netlify </b>
+        </p>
         <p className='projectLink'>
           <a
             href='https://pubg-stats-app.netlify.com'
             target='_blank'
             rel='noopener noreferrer'
+            className='linkhover'
           >
             Live demo
           </a>{' '}
@@ -29,20 +35,27 @@ const Projects = props => {
             href='https://github.com/Jacksard/pubg-stats-app'
             target='_blank'
             rel='noopener noreferrer'
+            className='linkhover'
           >
             {' '}
-            github Repo
+            Github Repo
           </a>
         </p>
-        <p>Back-End: NodeJS/Express/MongoDB with server side caching</p>
+        <p>
+          Back-End :{' '}
+          <b>
+            NodeJS/Express/MongoDB with server side caching, Deployed on Heroku
+          </b>
+        </p>
         <p className='projectLink'>
           <a
             href='https://github.com/Jacksard/pubg-stats-server'
             target='_blank'
             rel='noopener noreferrer'
+            className='linkhover'
           >
             {' '}
-            github Repo
+            <span>Github Repo</span>
           </a>
         </p>
       </div>
