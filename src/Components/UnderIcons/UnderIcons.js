@@ -5,9 +5,7 @@ const UnderIcons = () => {
   return (
     <div>
       <div className='animationSection'>
-        <div className='iconRunner'>
-          <p>UnderIcons</p>
-        </div>
+        <div className='iconRunner'></div>
       </div>
     </div>
   );
