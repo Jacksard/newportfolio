@@ -59,12 +59,12 @@ const Projects = props => {
           </a>
         </p>
       </div>
-      <div className='app2' data-aos='fade-right'>
+      {/* <div className='app2' data-aos='fade-right'>
         App #2
       </div>
       <div className='app3' data-aos='fade-left'>
         App #3
-      </div>
+      </div> */}
     </div>
   );
 };
