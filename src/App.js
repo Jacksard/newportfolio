@@ -23,10 +23,10 @@ class App extends Component {
               </a>
             </div>
             <p className='myName'>Jacob Goskha</p>
+            <p className='title'>JavaScript Full Stack Developer</p>
             <p className='location'>
               <i class='fas fa-map-marker-alt'></i>Toronto
             </p>
-            <p className='title'>JavaScript Full Stack Developer</p>
             <div className='underLine'></div>
           </header>
 
