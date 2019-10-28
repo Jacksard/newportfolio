@@ -1,10 +1,27 @@
 .animationSection {
-  height: 500px !important;
+  height: 500px;
   text-align: center;
   color: white;
   display: inline-block;
   /* border: 1px solid yellow; */
   width: 100%;
+}
+
+.arrows {
+  width: 60px;
+  height: 72px;
+  position: absolute;
+  left: 50%;
+  margin-left: -20px;
+  bottom: 50px;
+}
+
+.arrows path {
+  stroke: #ffffff;
+  fill: transparent;
+  stroke-width: 2px;
+  animation: arrow 2s infinite;
+  -webkit-animation: arrow 3s infinite;
 }
 
 .iconRunner {

@@ -32,7 +32,9 @@ class App extends Component {
 
           <Icons />
           <UnderIcons />
-
+          <svg class='arrows'>
+            <path class='a1' d='M0 0 L20 22 L40 0'></path>
+          </svg>
           <div className='projectsSection' data-aos='fade-down'>
             <Projects />
           </div>

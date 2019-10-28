@@ -79,6 +79,21 @@
   margin-right: 10px;
 }
 
+@keyframes arrow {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 @keyframes decorativeLine {
   0% {
     left: -1000px;
